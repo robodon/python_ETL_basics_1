@@ -1,7 +1,5 @@
 import pandas as pd
 
-#-------------------------------------------------------------------------------------------
-#JSON data load
 path = '/home/robin/Downloads/genome_2021/movie_dataset_public_final/raw/ratings.json'
 
 data_json = pd.read_json(path, lines=True)
